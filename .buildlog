@@ -1,0 +1,378 @@
+---
+build.dart --machine --full
+
+build.dart finished [1269 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1188 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1202 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.dart
+
+build.dart finished [1186 ms]
+
+---
+build.dart --machine --removed=web/clickcounter.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"couldn't find imported asset \"web/clickcounter.html\" in package \"canvas_example\".","line":11,"charStart":339,"charEnd":383}}]
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"click-counter\" not found.","line":23,"charStart":709,"charEnd":734}}]
+build.dart finished [1110 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"End tag (div) seen too early. Expected other end tag.","line":19,"charStart":633,"charEnd":639}}]
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"canvas-line\" not found.","line":18,"charStart":601,"charEnd":614}}]
+build.dart finished [1119 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"canvas-line\" not found.","line":18,"charStart":601,"charEnd":614}}]
+build.dart finished [1112 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart --changed=web/canvas_line.html
+
+build.dart finished [1158 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1144 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1150 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1824 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1844 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1848 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1728 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1883 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1811 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1342 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1323 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [2138 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2096 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1504 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart --changed=web/canvas_line.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"custom element \"canvas-line\" extends from \"canvas\", but this tag will not include the default properties of \"canvas\". To fix this, either write this tag as <canvas is=\"canvas-line\"> or remove the \"extends\" attribute from the custom element declaration.","line":18,"charStart":599,"charEnd":612}}]
+build.dart finished [1598 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"Unexpected end tag (canvas-line). Ignored.","line":18,"charStart":636,"charEnd":650}}]
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"Unexpected end tag (body). Missing end tag (canvas).","line":19,"charStart":653,"charEnd":660}}]
+build.dart finished [1369 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1344 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [2154 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1648 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart --changed=web/canvas_line.html
+[{"method":"warning","params":{"file":"web/canvas_line.html","message":"Dropped duplicate attribute on tag.","line":2,"charStart":57,"charEnd":142}}]
+build.dart finished [1321 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+[{"method":"warning","params":{"file":"web/canvas_line.html","message":"Dropped duplicate attribute on tag.","line":2,"charStart":57,"charEnd":142}}]
+build.dart finished [1260 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1177 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1187 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1179 ms]
+
+---
+build.dart --machine --changed=lib.dart
+
+build.dart finished [1337 ms]
+
+---
+build.dart --machine --removed=lib.dart
+
+build.dart finished [1184 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1201 ms]
+
+---
+build.dart --machine --changed=lib/ball.dart
+
+build.dart finished [1241 ms]
+
+---
+build.dart --machine --changed=lib/ball.dart
+
+build.dart finished [1198 ms]
+
+---
+build.dart --machine --changed=lib/ball.dart --changed=web/canvas_line.dart
+
+build.dart finished [1244 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1243 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1318 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1189 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1250 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1276 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1763 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1136 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1916 ms]
+
+---
+build.dart --machine --changed=lib/ball.dart --changed=web/canvas_line.dart
+
+build.dart finished [1444 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [2030 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1807 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1201 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1527 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1588 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1343 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1836 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1814 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1816 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1662 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1690 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1907 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1755 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1958 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2272 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.dart
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"Inline event handlers are only supported inside declarations of <polymer-element>.","line":18,"charStart":636,"charEnd":663}}]
+build.dart finished [2622 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.html
+
+build.dart finished [2189 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [2248 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart --changed=web/canvas_line.html
+
+build.dart finished [1885 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [2808 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1973 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1792 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1450 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1892 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1929 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart --changed=web/canvas_line.html
+
+build.dart finished [2088 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1989 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1979 ms]
+
