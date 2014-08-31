@@ -1,0 +1,1 @@
+canvas sizing - includes, a dynamic reference to window_length and spacing.

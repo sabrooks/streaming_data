@@ -376,3 +376,942 @@ build.dart --machine --full
 
 build.dart finished [1979 ms]
 
+---
+build.dart --machine --full
+
+build.dart finished [1314 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1219 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1343 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1513 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1190 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [1306 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html
+
+build.dart finished [1374 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart --changed=web/canvas_background.html --changed=web/ca...
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"canvas-background\" not found.","line":19,"charStart":652,"charEnd":683}}]
+build.dart finished [1224 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart --changed=web/canvas_example.html
+
+build.dart finished [1420 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1862 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1733 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1661 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1660 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [1706 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html --changed=web/canvas_example.html
+
+build.dart finished [1652 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1456 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart --changed=web/canvas_line.dart
+
+build.dart finished [2108 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html
+
+build.dart finished [1896 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1805 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [1752 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart
+
+build.dart finished [1661 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html --changed=web/canvas_line.html
+
+build.dart finished [2083 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html
+
+build.dart finished [2218 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html
+
+build.dart finished [1479 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.html
+
+build.dart finished [1175 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.html
+
+build.dart finished [2208 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart
+
+build.dart finished [1796 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart
+
+build.dart finished [2080 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart
+
+build.dart finished [1865 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart
+
+build.dart finished [1630 ms]
+
+---
+build.dart --machine --changed=web/canvas_background.dart
+
+build.dart finished [1744 ms]
+
+---
+build.dart --machine --changed=web/canvas_line.dart
+
+build.dart finished [2000 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [2591 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.dart --changed=web/canvas_line...
+
+build.dart finished [1973 ms]
+
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/canvas_example.html --changed=...
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"Expected attribute value. Got '>' instead.","line":26,"charStart":960,"charEnd":981}}]
+build.dart finished [1818 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1939 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [2543 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.dart
+
+build.dart finished [2028 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1853 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [2373 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1973 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [2125 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.html
+[{"method":"warning","params":{"file":"web/canvas_line.html","message":"definition for Polymer element with tag name \"core-field\" not found.","line":5,"charStart":228,"charEnd":256}}]
+[{"method":"warning","params":{"file":"web/canvas_line.html","message":"definition for Polymer element with tag name \"paper-slider\" not found.","line":6,"charStart":263,"charEnd":319}}]
+build.dart finished [1606 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.html
+
+build.dart finished [2098 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/canvas_line.html
+
+build.dart finished [2481 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [2190 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1701 ms]
+
+---
+build.dart --machine --changed=web/stream_widget.dart
+
+build.dart finished [1566 ms]
+
+---
+build.dart --machine --changed=web/stream_widget.html
+
+build.dart finished [1571 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --removed=web/stream_widget.dart
+
+build.dart finished [1525 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html --removed=web/stream_widget.html
+
+build.dart finished [1546 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/stream_chart.html
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"packages/polymer/polymer.html\">.","line":1,"charStart":0,"charEnd":73}}]
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"stream-chart\" not found.","line":21,"charStart":796,"charEnd":810}}]
+build.dart finished [1525 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Missing definition for <polymer-element>, please add the following HTML import at the top of this file: <link rel=\"import\" href=\"packages/polymer/polymer.html\">.","line":1,"charStart":0,"charEnd":73}}]
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"stream-chart\" not found.","line":21,"charStart":796,"charEnd":810}}]
+build.dart finished [1519 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"stream-chart\" not found.","line":21,"charStart":796,"charEnd":810}}]
+build.dart finished [1808 ms]
+
+---
+build.dart --machine --changed=lib/data_stream.dart
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"stream-chart\" not found.","line":21,"charStart":796,"charEnd":810}}]
+build.dart finished [1918 ms]
+
+---
+build.dart --machine --changed=lib/data_stream.dart --changed=web/stream_chart.dart
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"definition for Polymer element with tag name \"stream-chart\" not found.","line":21,"charStart":796,"charEnd":810}}]
+build.dart finished [1814 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1745 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1996 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2015 ms]
+
+---
+build.dart --machine --changed=model/data_stream.dart --changed=web/stream_chart.dart --removed=lib/data_stream...
+
+build.dart finished [1834 ms]
+
+---
+build.dart --machine --changed=model/data_stream.dart --changed=web/stream_chart.dart
+
+build.dart finished [1621 ms]
+
+---
+build.dart --machine --changed=build/web/canvas_background.dart --changed=build/web/canvas_background.html --ch...
+
+build.dart finished [2290 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1689 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2419 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1554 ms]
+
+---
+build.dart --machine --removed=build/web/canvas_background.dart --removed=build/web/canvas_background.html --re...
+
+build.dart finished [1558 ms]
+
+---
+build.dart --machine --changed=build/web/canvas_background.dart --changed=build/web/canvas_background.html --ch...
+
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart --changed=web/stream_chart.dart --removed=model/data_stream...
+
+build.dart finished [1762 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/stream_chart.html
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"definition for Polymer element with tag name \"paper-slider\" not found.","line":17,"charStart":516,"charEnd":577}}]
+build.dart finished [1627 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/stream_chart.html
+
+build.dart finished [1898 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Invalid character in attribute name","line":18,"charStart":585,"charEnd":681}}]
+build.dart finished [1725 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1866 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [2291 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2666 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2265 ms]
+
+---
+build.dart --machine --full
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"definition for Polymer element with tag name \"paper-toggle-button\" not found.","line":19,"charStart":693,"charEnd":737}}]
+build.dart finished [1879 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2449 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1636 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1743 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2128 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [2145 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2022 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2515 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1748 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2810 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [1869 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [3016 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1805 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1686 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [2334 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1794 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [1961 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2676 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2407 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2262 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2329 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2388 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2600 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2629 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/data_stream.dart --changed=web/stream_char...
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Invalid event handler body \"advance\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\".","line":24,"charStart":925,"charEnd":943}}]
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Invalid event handler body \"back\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-click=\"{{handlerName}}\".","line":24,"charStart":964,"charEnd":979}}]
+build.dart finished [2900 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2288 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2096 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/data_stream.dart --changed=web/stream_char...
+
+build.dart finished [2456 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3316 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart
+
+build.dart finished [1781 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart --changed=web/stream_chart.dart
+
+build.dart finished [1848 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart
+
+build.dart finished [1815 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart
+
+build.dart finished [2061 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart
+
+build.dart finished [2403 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart
+
+build.dart finished [3278 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart --changed=web/stream_chart.dart
+
+build.dart finished [2109 ms]
+
+---
+build.dart --machine --changed=web/data_stream.dart
+
+build.dart finished [3576 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1802 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3472 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1954 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2863 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2892 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2857 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1829 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2901 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3164 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2505 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2708 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2640 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2687 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2417 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html --changed=web/data_stream.dart --changed=web/stream_char...
+
+build.dart finished [1961 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2674 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1708 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2781 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2673 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2634 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2291 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2717 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1930 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3170 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2628 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2711 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2062 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1897 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2247 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2123 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2489 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3843 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2290 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3718 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2947 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2886 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1758 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1980 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2245 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3156 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1976 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1765 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1719 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1733 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1642 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1711 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1679 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1685 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2107 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [2877 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3223 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3161 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2018 ms]
+
+---
+build.dart --machine --changed=web/notes.txt
+
+build.dart finished [1749 ms]
+
+---
+build.dart --machine --changed=web/notes.txt --changed=web/stream_chart.html
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Invalid character in attribute name","line":17,"charStart":588,"charEnd":633}}]
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Unexpected character after / in tag. Expected >","line":17,"charStart":588,"charEnd":635}}]
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Unexpected end tag (template). Ignored.","line":30,"charStart":1209,"charEnd":1220}}]
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Unexpected end tag (polymer-element). Ignored.","line":32,"charStart":1289,"charEnd":1307}}]
+[{"method":"warning","params":{"file":"web/stream_chart.html","message":"Expected closing tag. Unexpected end of file.","line":17,"charStart":588,"charEnd":638}}]
+build.dart finished [1821 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1898 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1716 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html
+
+build.dart finished [2219 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2514 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2592 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [2063 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1513 ms]
+
+---
+build.dart --machine --removed=web/canvas_background.dart
+
+build.dart finished [1567 ms]
+
+---
+build.dart --machine --removed=web/canvas_background.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"couldn't find imported asset \"web/canvas_background.html\" in package \"canvas_example\".","line":12,"charStart":385,"charEnd":434}}]
+build.dart finished [1578 ms]
+
+---
+build.dart --machine --removed=web/canvas_line.dart
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"couldn't find imported asset \"web/canvas_background.html\" in package \"canvas_example\".","line":12,"charStart":385,"charEnd":434}}]
+build.dart finished [1500 ms]
+
+---
+build.dart --machine --removed=web/canvas_line.html
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"couldn't find imported asset \"web/canvas_line.html\" in package \"canvas_example\".","line":11,"charStart":337,"charEnd":380}}]
+[{"method":"warning","params":{"file":"web/canvas_example.html","message":"couldn't find imported asset \"web/canvas_background.html\" in package \"canvas_example\".","line":12,"charStart":385,"charEnd":434}}]
+build.dart finished [1450 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1452 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2501 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1611 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1603 ms]
+
+---
+build.dart --machine --full
+
+build.dart finished [2175 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [2134 ms]
+
+---
+build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web/canvas_example.html --changed=...
+
+build.dart finished [3045 ms]
+
