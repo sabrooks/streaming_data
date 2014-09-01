@@ -1,5 +1,5 @@
 <link rel="import" href="packages/polymer/polymer.html">
-<polymer-element name="stream-chart">
+<polymer-element extends = "canvas" name="stream-chart">
   <template>
     <style>
       #stream {
@@ -10,7 +10,6 @@
       }  
       canvas {border: 1px solid #aaa; display:inline-block; }
     </style>
-      <canvas id="stream" width={{window_length*spacing}} height="200"></canvas>
   </template>
   <script type="application/dart" src="stream_chart.dart"></script>
 </polymer-element>
