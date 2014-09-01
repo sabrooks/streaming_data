@@ -4,15 +4,17 @@ import 'dart:html';
 import 'dart:async';
 import 'data_stream.dart';
 
-@CustomTag('stream-chart')
-class ClickCounter extends PolymerElement {
-  @observable bool isPaused = false;
+@CustomTag('stream-list')
+class StreamList extends PolymerElement {
+  @observable List<List<num>> streamList = toObservable([[1,1,2,3,4,5],[1,1,1,1,1,1,1]]);
+  
+  bool isPaused = false;
   @observable num interval = 5;
   
 
   num period = 40;
   num numPeriods = 1;
-  num window_length;
+  num window_length = 40;
   num spacing;
   Queue dataQueue = new Queue<num>();
   List <List> queueList =[];
@@ -25,7 +27,19 @@ class ClickCounter extends PolymerElement {
   
   num scale = 1;
 
-  ClickCounter.created() : super.created() {
+  StreamList.created() : super.created() {
+    stream = dataStream(new Duration(milliseconds: interval), period).asBroadcastStream();
+    print("stream");
+    stream.take(window_length*5)
+              .toList()
+              .then((List<num> initStream){
+              scale = .8*canvas.height/minMax(initStream);
+              streamList.add(initStream);
+              dispatchEvent(new CustomEvent('drawEvent'));
+              subscription = stream.transform(transformer).listen(onData);
+             });
+    
+    
     // get canvas and context
     canvas = shadowRoot.querySelector('#stream');
     background = shadowRoot.querySelector('#background');
@@ -34,15 +48,12 @@ class ClickCounter extends PolymerElement {
     ctx = canvas.getContext('2d') as CanvasRenderingContext2D; // makes type checker happy
     bkg = background.getContext('2d') as CanvasRenderingContext2D
         ..fillStyle = '#fff';
-    stream = dataStream(new Duration(milliseconds: interval), period).asBroadcastStream();
+    
     //take 5 periods of stream data.Set display scale.  start subscription to data stream.
-    stream.take(window_length*5)
-           .toList()
-           .then((List<num> initStream){
-           scale = .8*canvas.height/minMax(initStream);
-          }).then((_){
-      subscription = stream.transform(transformer).listen(onData);
-    });
+    
+    
+    
+   
     //window.animationFrame.then(animateData);
     bkg.fillRect(0, 0, canvas.width, canvas.height);
     ctx.globalAlpha = 0.2;
@@ -73,7 +84,7 @@ class ClickCounter extends PolymerElement {
   
   void onData(num data){
     
-    dataQueue.add(data);
+    /*dataQueue.add(data);
     
     //check if queue is to be added to queueList
     if(dataQueue.length == window_length){
@@ -89,7 +100,9 @@ class ClickCounter extends PolymerElement {
       drawList();
     }
     else{print(dataQueue.length.toString());}
-  }
+  
+  * 
+   */}
   
   change(){
     print(interval.toString());

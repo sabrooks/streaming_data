@@ -1,48 +1,16 @@
 <link rel="import" href="packages/polymer/polymer.html">
-<link rel="import" href="packages/paper_elements/paper_slider.html">
-<link rel="import" href="packages/paper_elements/paper_toggle_button.html">
 <polymer-element name="stream-chart">
   <template>
     <style>
-      #container {
-        position:relative;
-        border: 1px solid #aaa;
-        background: #eee;
-        padding:1em;
-        margin:1em;
-        height: 200px;
-      }
       #stream {
         position:absolute;
         left: auto;
         top: auto;
         z-index: 2;
-      }
-      #background {
-        position:absolute;
-        left:auto;
-        top: auto;
-        z-index: 1;
-      }
-      
-      
+      }  
       canvas {border: 1px solid #aaa; display:inline-block; }
     </style>
-    <div id="container">
       <canvas id="stream" width={{window_length*spacing}} height="200"></canvas>
-      <canvas id ="background" width={{window_length*spacing}} height="200"></canvas>
-    </div>
-    <div id = "controler">
-      <paper-slider min = "20" max = "1000" value = "{{interval}}" on-change = "{{change}}" editable></paper-slider>
-      <paper-toggle-button on-change ="{{pause}}"></paper-toggle-button>
-      <paper-toggle-button on-change ="{{speedChanged}}"></paper-toggle-button>
-    </div>
-    <div>
-      <button on-click="{{advance}}">Adv</button><button on-click="{{back}}">Back</button>
-    </div>
-    <div>
-      <button on-click="{{horizontalIncScale}}">Horz. Inc</button><button on-click="{{horizontalDecScale}}">Horz. Dec</button>
-    </div>
   </template>
   <script type="application/dart" src="stream_chart.dart"></script>
 </polymer-element>

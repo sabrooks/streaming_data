@@ -1,16 +1,52 @@
-<!DOCTYPE html>
-
-<html>
-  <head>
-  	<meta charset="utf-8">
-  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>stream_list</title>
-  </head>
- 
-  <body>   
-    <p id="text"></p>
-    <script type="application/dart" src="stream_list.dart"></script>
-    <!-- for this next line to work, your pubspec.yaml file must have a dependency on 'browser' -->
-    <script src="packages/browser/dart.js"></script>
-  </body>
-</html>
+<link rel="import" href="packages/polymer/polymer.html">
+<link rel="import" href="packages/paper_elements/paper_slider.html">
+<link rel="import" href="packages/paper_elements/paper_toggle_button.html">
+<link rel="import" href="stream_chart.html">
+<polymer-element name="stream-list">
+  <template>
+    <style>
+      #container {
+        position:relative;
+        border: 1px solid #aaa;
+        background: #eee;
+        padding:1em;
+        margin:1em;
+        height: 200px;
+      }
+      #stream {
+        position:absolute;
+        left: auto;
+        top: auto;
+        z-index: 2;
+      }
+      #background {
+        position:absolute;
+        left:auto;
+        top: auto;
+        z-index: 1;
+      }
+      
+      
+      canvas {border: 1px solid #aaa; display:inline-block; }
+    </style>
+    <div id="container">
+    <h1>In Stream List</h1>
+      <canvas id ="background" width={{window_length*spacing}} height="200"></canvas>
+      <template repeat = "{{stream in streamList}}">
+        <stream-chart data="{{stream}}" on-drawEvent = "{{drawCanvas}}"></stream-chart>
+      </template>
+    </div>
+    <div id = "controler">
+      <paper-slider min = "20" max = "1000" value = "{{interval}}" on-change = "{{change}}" editable></paper-slider>
+      <paper-toggle-button on-change ="{{pause}}"></paper-toggle-button>
+      <paper-toggle-button on-change ="{{speedChanged}}"></paper-toggle-button>
+    </div>
+    <div>
+      <button on-click="{{advance}}">Adv</button><button on-click="{{back}}">Back</button>
+    </div>
+    <div>
+      <button on-click="{{horizontalIncScale}}">Horz. Inc</button><button on-click="{{horizontalDecScale}}">Horz. Dec</button>
+    </div>
+  </template>
+  <script type="application/dart" src="stream_list.dart"></script>
+</polymer-element>

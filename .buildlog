@@ -1315,3 +1315,168 @@ build.dart --machine --changed=pubspec.lock --changed=pubspec.yaml --changed=web
 
 build.dart finished [3045 ms]
 
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_chart.html --changed=web/stream_list....
+[{"method":"warning","params":{"file":"web/stream_list.html","message":"definition for Polymer element with tag name \"stream-chart\" not found.","line":34,"charStart":928,"charEnd":960}}]
+build.dart finished [1891 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1529 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1618 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_list.dart
+
+build.dart finished [2018 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2108 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1690 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1537 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart --changed=web/stream_list.html
+[{"method":"warning","params":{"file":"web/stream_list.html","message":"Invalid event handler body \"drawEvent\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-draw=\"{{handlerName}}\".","line":35,"charStart":1005,"charEnd":1026}}]
+build.dart finished [1528 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+[{"method":"warning","params":{"file":"web/stream_list.html","message":"Invalid event handler body \"draw\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-drawevent=\"{{handlerName}}\".","line":35,"charStart":1005,"charEnd":1026}}]
+build.dart finished [1530 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+[{"method":"warning","params":{"file":"web/stream_list.html","message":"Invalid event handler body \"draw\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-drawevent=\"{{handlerName}}\".","line":35,"charStart":1005,"charEnd":1026}}]
+build.dart finished [1484 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_list.html
+[{"method":"warning","params":{"file":"web/stream_list.html","message":"Invalid event handler body \"drawCanvas\". Declare a method in your custom element \"void handlerName(event, detail, target)\" and use the form on-drawevent=\"{{handlerName}}\".","line":35,"charStart":1005,"charEnd":1032}}]
+build.dart finished [1607 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1629 ms]
+
+---
+build.dart --machine --removed=web/canvas_line.dart
+
+build.dart finished [1650 ms]
+
+---
+build.dart --machine --removed=web/canvas_line.html
+
+build.dart finished [1603 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1559 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1631 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1893 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1542 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1727 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1614 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [1640 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+
+build.dart finished [1588 ms]
+
+---
+build.dart --machine --removed=build/web/canvas_background.dart --removed=build/web/canvas_background.html --re...
+
+build.dart finished [2149 ms]
+
+---
+build.dart --machine --changed=pubspec.lock
+
+build.dart finished [1558 ms]
+
+---
+build.dart --machine --changed=pubspec.yaml
+
+build.dart finished [1670 ms]
+
+---
+build.dart --machine --changed=build/web/canvas_example.css --changed=build/web/canvas_example.html.0.dart --ch...
+
+build.dart finished [1455 ms]
+
+---
+build.dart --machine --removed=build/web/canvas_example.css --removed=build/web/canvas_example.html.0.dart --re...
+
+build.dart finished [1478 ms]
+
+---
+build.dart --machine --changed=build/web/canvas_example.css --changed=build/web/canvas_example.html.0.dart --ch...
+
+build.dart finished [1480 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1916 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1565 ms]
+
+---
+build.dart --machine --changed=web/canvas_example.html
+
+build.dart finished [2285 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [2084 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1938 ms]
+

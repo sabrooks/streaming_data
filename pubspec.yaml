@@ -1,4 +1,4 @@
-name: canvas_example
+name: Data_Stream_Example
 description: A sample Polymer application
 dependencies:
   core_elements: any
