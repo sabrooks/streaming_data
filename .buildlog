@@ -1480,3 +1480,33 @@ build.dart --machine --changed=web/stream_list.html
 
 build.dart finished [1938 ms]
 
+---
+build.dart --machine --changed=build/web/canvas_example.css --changed=build/web/canvas_example.html.0.dart --ch...
+
+build.dart finished [2461 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart --changed=web/stream_list.dart
+
+build.dart finished [3541 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [2060 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [3035 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1595 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1588 ms]
+

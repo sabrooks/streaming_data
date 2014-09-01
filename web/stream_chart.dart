@@ -13,13 +13,13 @@ class StreamChart extends PolymerElement {
 
   StreamChart.created() : super.created() {
     // get canvas and context
-    canvas = shadowRoot.querySelector('#stream');
-    ctx = canvas.getContext('2d') as CanvasRenderingContext2D; // makes type checker happy
-    ctx.globalAlpha = 0.2;
   }
   
   void attached(){
     super.attached();
+    canvas = shadowRoot.querySelector('canvas');
+    ctx = canvas.getContext('2d') as CanvasRenderingContext2D; // makes type checker happy
+    ctx.globalAlpha = 0.2;
     draw();
   }
   

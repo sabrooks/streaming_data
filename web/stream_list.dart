@@ -41,10 +41,8 @@ class StreamList extends PolymerElement {
     
     
     // get canvas and context
-    canvas = shadowRoot.querySelector('#stream');
     background = shadowRoot.querySelector('#background');
     window_length = period*numPeriods;
-    spacing=canvas.width/window_length;
     ctx = canvas.getContext('2d') as CanvasRenderingContext2D; // makes type checker happy
     bkg = background.getContext('2d') as CanvasRenderingContext2D
         ..fillStyle = '#fff';
