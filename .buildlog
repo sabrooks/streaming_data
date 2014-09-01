@@ -1510,3 +1510,38 @@ build.dart --machine --changed=web/stream_chart.dart
 
 build.dart finished [1588 ms]
 
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1592 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.html
+[{"method":"warning","params":{"file":"web/stream_list.html","message":"custom element \"stream-chart\" extends from \"canvas\", but this tag will not include the default properties of \"canvas\". To fix this, either write this tag as <canvas is=\"stream-chart\"> or remove the \"extends\" attribute from the custom element declaration.","line":36,"charStart":997,"charEnd":1061}}]
+build.dart finished [1602 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [1669 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1591 ms]
+
+---
+build.dart --machine --changed=web/stream_list.dart
+
+build.dart finished [1915 ms]
+
+---
+build.dart --machine --changed=web/stream_list.html
+
+build.dart finished [2811 ms]
+
+---
+build.dart --machine --changed=web/stream_chart.dart
+
+build.dart finished [1876 ms]
+

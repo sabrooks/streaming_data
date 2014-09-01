@@ -22,39 +22,30 @@ class StreamList extends PolymerElement {
   StreamSubscription<num> subscription;
   CanvasElement canvas;
   CanvasElement background;
-  CanvasRenderingContext2D ctx;
   CanvasRenderingContext2D bkg;
   
   num scale = 1;
 
   StreamList.created() : super.created() {
+    background = shadowRoot.querySelector('#background');
+        window_length = period*numPeriods;
+        bkg = background.getContext('2d') as CanvasRenderingContext2D
+            ..fillStyle = '#fff';
+    
     stream = dataStream(new Duration(milliseconds: interval), period).asBroadcastStream();
     print("stream");
     stream.take(window_length*5)
               .toList()
               .then((List<num> initStream){
-              scale = .8*canvas.height/minMax(initStream);
+              scale = .8*background.height/minMax(initStream);
               streamList.add(initStream);
               dispatchEvent(new CustomEvent('drawEvent'));
               subscription = stream.transform(transformer).listen(onData);
              });
     
-    
-    // get canvas and context
-    background = shadowRoot.querySelector('#background');
-    window_length = period*numPeriods;
-    ctx = canvas.getContext('2d') as CanvasRenderingContext2D; // makes type checker happy
-    bkg = background.getContext('2d') as CanvasRenderingContext2D
-        ..fillStyle = '#fff';
-    
-    //take 5 periods of stream data.Set display scale.  start subscription to data stream.
-    
-    
-    
    
     //window.animationFrame.then(animateData);
-    bkg.fillRect(0, 0, canvas.width, canvas.height);
-    ctx.globalAlpha = 0.2;
+    bkg.fillRect(0, 0, background.width, background.height);
   }
   
   speedChanged(){
@@ -69,16 +60,6 @@ class StreamList extends PolymerElement {
     sink.add(value*1);
   });
   
-  void draw(List data){
-    print("draw");
-    ctx.beginPath();
-    int index = 0;
-    for(num dataPoint in data){
-      ctx.lineTo(index*spacing, canvas.height/2 + scale*dataPoint);
-      index++;
-    }
-    ctx.stroke();
-  }
   
   void onData(num data){
     
@@ -114,14 +95,7 @@ class StreamList extends PolymerElement {
       }
     }
   
-  drawList(){
-    ctx.clearRect(0, 0, canvas.width, canvas.height);
-    for(List data in queueList){
-      draw(data);
-    }
-  }
-  
-  advance(){
+ /* advance(){
     //need to improve responsiveness.  Quick changes can lead to stray lines.
     ctx.clearRect(0, 0, canvas.width, canvas.height);
     dataQueue.removeLast();
@@ -138,6 +112,8 @@ class StreamList extends PolymerElement {
     spacing=canvas.width/window_length;
     drawList();
   }
+  * 
+   */
   
  Future <num> initScale(){
    var completer = new Completer ();

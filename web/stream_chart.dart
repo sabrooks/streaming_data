@@ -2,24 +2,24 @@ import 'package:polymer/polymer.dart';
 import 'dart:html';
 
 @CustomTag('stream-chart')
-class StreamChart extends PolymerElement {
+class StreamChart extends CanvasElement with Polymer, Observable {
+  
   @observable List<num> data = toObservable([]);
   num spacing = 10;
   num scale = 1;
   num window_length = 40;
 
-  CanvasElement canvas;
   CanvasRenderingContext2D ctx;
 
   StreamChart.created() : super.created() {
+    polymerCreated();//required for Polymer Elements that extend DOM elements
     // get canvas and context
+    ctx = getContext('2d');
+    ctx.globalAlpha = 0.2;
   }
   
   void attached(){
     super.attached();
-    canvas = shadowRoot.querySelector('canvas');
-    ctx = canvas.getContext('2d') as CanvasRenderingContext2D; // makes type checker happy
-    ctx.globalAlpha = 0.2;
     draw();
   }
   
@@ -28,7 +28,7 @@ class StreamChart extends PolymerElement {
     ctx.beginPath();
     int index = 0;
     for(num dataPoint in data){
-      ctx.lineTo(index*spacing, canvas.height/2 + scale*dataPoint);
+      ctx.lineTo(index*spacing, height/2 + scale*dataPoint);
       index++;
     }
     ctx.stroke();
@@ -39,7 +39,7 @@ class StreamChart extends PolymerElement {
     ctx.beginPath();
     int index = 0;
     for(num dataPoint in data){
-      ctx.lineTo(index*spacing, canvas.height/2 + scale*dataPoint);
+      ctx.lineTo(index*spacing, height/2 + scale*dataPoint);
       index++;
     }
     ctx.stroke();
